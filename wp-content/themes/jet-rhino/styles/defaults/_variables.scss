@@ -1,0 +1,28 @@
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;
+$foundation-palette: (
+  primary: #6d428c,
+  secondary: #555,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840,
+);
+$primary: map-get($foundation-palette, primary);
+$secondary: map-get($foundation-palette, secondary);
+$black: #0a0a0a;
+$white: #fefefe;
+$dark-gray: #434343;
+$light-gray: #f1f1f1;
+$body-background: $white;
+$body-font-color: $black;
+$sans: 'Lato';
+$serif: 'Droid Serif';
+$body-font-family: $sans;
+
+// 1.1 Advanced Module Settings
+
+$small-spacing: 35;
+$medium-spacing: 70;
+$large-spacing: 105;
+
